@@ -1,0 +1,19 @@
+{
+    "name": "aberdeener/inject",
+    "description": "PHP dependency injection to make people happy",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tadhg",
+            "email": "tadhgsmboyle@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aberdeener\\Inject\\": "src/"
+        }
+    }
+}
